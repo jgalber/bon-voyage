@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML100 Assignment Lesson Two HTML continued - Services</title>
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: verdana, sans-serif;
+      }
+
+      header {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      h1 {
+        flex: 100%;
+      }
+
+      nav.back-home {
+        flex: 100%;
+        background-color: #3F334D;
+        text-align: center;
+        padding: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #F5F4F6;
+        display: inline;
+        padding: 20px;
+        letter-spacing: 4px;
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+
+      main {
+        background-color: #F7F2F2;
+        color: #384656;
+        /* text-align: center; */
+        padding: 20px;
+      }
+
+      article {
+        padding: 20px;
+        margin: 10px;
+        border: white solid 1px;
+      }
+      .feedback {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+        margin: 10px;
+        border: white solid 1px;
+      }
+
+      h4 {
+        grid-column: 1 / 2;
+      }
+
+      #feedback {
+        grid-column: 2 / 1;
+        text-align: center;
+        padding: 10px;
+      }
+
+      ul {
+        grid-column: 3 / 2;
+        line-height: 32px;
+        font-size: 1.2em;
+        margin: 0;
+      }
+
+      footer {
+        background-color: #3F334D;
+        padding: 20px;
+        color: #F5F4F6;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <img src="bon-voyage-logo.png" alt="bon voyage travels official logo" class="logo">
+          <h1 style="color: #384656; text-align: center;">What Can We Do</h1>
+            <nav class="back-home">
+              <a title="homepage" href="index.html">Home</a>
+            </nav>
+    </header>
+    <hr>
+    <main>
+      <section>
+        <h2 style="text-align: center;">Join Our Team</h2>
+        <img style="display: block; width: 400px; border-radius: 10px; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 40px;" src="https://live.staticflickr.com/8365/8551937456_9f2c1544d3_m.jpg" alt="Closeup portrait of a group of business people laughing">
+        <article>
+          <h3 style="text-align: center;">Our Commitment</h3>
+          <p style="text-align: center; font-size: 18px;">At Bon Voyage Travels we believe that traveling is not just a hobby, it is more than that, it is a <em>right</em>.<p>
+        </article>
+        <article>
+          <h3 style="text-align: center;">We Need You</h3>
+          <p style="line-height: 32px; font-size: 18px;">Our clients agree with us on our principles of being a good travelers, and the most important motto is <q>affordable for everyone</q>.
+          For this reason, we are a new talented team and we want you to participate with us.</p>
+        </article>
+        <article>
+          <h3 style="text-align: center;">Our Goals</h3>
+          <p style="line-height: 32px; font-size: 18px;">We ask for all of our customers their feedback about every destination they choose. It is a kind of collaboration which interacts with
+          our team and the client being as part of our team.</p>
+        </article>
+        <aside class="feedback">
+          <h4 style="text-align: center;">Your Feedback</h4>
+          <p id="feedback">It is your <strong>mission</strong> that consists in three simple steps, all of them related in your vacation plan:</p>
+          <ul>
+            <li>Transport</li>
+            <li>Stay or Accommodation</li>
+            <li>Your Destination</li>
+          </ul>
+        </aside>
+
+      </section>
+    </main>
+
+    <footer>
+      <p style="line-height: 32px;"><b>&copy; 2020 Bermejo &amp; Gallego Designs</b>
+        <br>
+      <small>All rights reserved to the owner of this website</small></p>
+    </footer>
+  </body>
+</html>
